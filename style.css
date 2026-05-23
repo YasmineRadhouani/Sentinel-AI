@@ -12,38 +12,22 @@ body{
 
 .container{
     text-align:center;
+    width:100%;
 }
 
 .logo{
-    width:120px;
-    margin-bottom:20px;
+    width:180px;
+    height:auto;
 }
 
 h1{
     font-size:60px;
     color:#6ae3ff;
     text-shadow:0 0 20px #00ccff;
+    margin-top:20px;
 }
 
 p{
     font-size:20px;
-    max-width:700px;
-    margin:auto;
     color:#c7d9e5;
-}
-
-button{
-    margin-top:30px;
-    padding:15px 35px;
-    border:none;
-    border-radius:12px;
-    background:#00ccff;
-    color:black;
-    font-size:18px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-button:hover{
-    background:white;
 }
